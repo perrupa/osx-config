@@ -5,8 +5,7 @@ export ZSH=$HOME/.dotfiles/oh-my-zsh
 # Look in $ZSH/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-export ZSH_THEME="pygmalion"
-#export ZSH_THEME="random"
+export ZSH_THEME="marlow"
 
 # Set to this to use case-sensitive completion
 export CASE_SENSITIVE="true"
