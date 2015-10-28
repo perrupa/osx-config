@@ -7,7 +7,7 @@ if has('gui_running')
 else
     set background=dark
 endif
-colorscheme solarized
+colorscheme desert
 syntax on " syntax highlighting on
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -90,7 +90,7 @@ set preserveindent " but above all -- follow the conventions laid before us
 set ignorecase " case insensitive by default
 set smartcase " if there are caps, go case-sensitive
 set completeopt=menu,longest,preview " improve the way autocomplete works
-set cursorcolumn " show the current column
+" set cursorcolumn " show the current column
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Folding
@@ -147,12 +147,12 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Mappings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" map <up> <ESC>:bp<RETURN> " left arrow (normal mode) switches buffers
-" map <down> <ESC>:bn<RETURN> " right arrow (normal mode) switches buffers
-" map <right> <ESC>:Tlist<RETURN> " show taglist
-" map <left> <ESC>:NERDTreeToggle<RETURN>  " moves left fa split
-" map <F2> <ESC>ggVG:call SuperRetab()<left>
-" map <F12> ggVGg? " apply rot13 for people snooping over shoulder, good fun
+ " map <up> <ESC>:bp<RETURN> " left arrow (normal mode) switches buffers
+ " map <down> <ESC>:bn<RETURN> " right arrow (normal mode) switches buffers
+ " map <right> <ESC>:Tlist<RETURN> " show taglist
+ " map <left> <ESC>:NERDTreeToggle<RETURN>  " moves left fa split
+ " map <F2> <ESC>ggVG:call SuperRetab()<left>
+ " map <F12> ggVGg? " apply rot13 for people snooping over shoulder, good fun
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Useful abbrevs
